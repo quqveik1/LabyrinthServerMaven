@@ -5,7 +5,7 @@ FROM openjdk:8-jre-alpine
 WORKDIR /app
 
 # Скопируйте .jar файл в созданную директорию
-COPY ./target/your-app.jar /app/your-app.jar
+COPY ./target/LabyrinthServer-0.0.1-SNAPSHOT.jar /app/your-app.jar
 
 # Запустите приложение при старте контейнера
 CMD ["java", "-jar", "/app/your-app.jar"]
