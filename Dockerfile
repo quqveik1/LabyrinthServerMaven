@@ -1,5 +1,5 @@
 # Используйте официальный образ Java Runtime Environment (JRE)
-FROM openjdk:17-jre-alpine
+FROM openjdk:17
 
 # Создайте директорию для приложения в контейнере
 WORKDIR /app
